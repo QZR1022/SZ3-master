@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/360Downloads/SZ3/build/cmake_install.cmake",
+		"D:/360Downloads/SZ3/build/tools/zstd/cmake_install.cmake",
+		"D:/360Downloads/SZ3/build/tools/sz3/cmake_install.cmake",
+		"D:/360Downloads/SZ3/build/tools/sz3c/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

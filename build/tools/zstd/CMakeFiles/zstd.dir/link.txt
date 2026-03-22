@@ -1,0 +1,3 @@
+D:\cmake\bin\cmake.exe -E rm -f CMakeFiles\zstd.dir/objects.a
+D:\123pan\Downloads\x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0\mingw64\bin\ar.exe qc CMakeFiles\zstd.dir/objects.a @CMakeFiles\zstd.dir\objects1.rsp
+D:\123pan\Downloads\x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0\mingw64\bin\gcc.exe -O3 -DNDEBUG -shared -o libzstd.dll -Wl,--out-implib,libzstd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\zstd.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\zstd.dir\linkLibs.rsp

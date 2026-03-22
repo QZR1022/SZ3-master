@@ -1,22 +1,18 @@
-# 大文件
+# 排除大文件
 *.raw
 *.sz3
-*.zfp
 *.tthresh
 
-# 编译产物
-build/
-*.exe
-*.dll
-*.obj
-*.o
-*.a
-*.so
-
-# Python 缓存
+# 排除 Python 缓存
 __pycache__/
 *.pyc
 
-# IDE
+# 排除 IDE
 .vscode/
 .idea/
+
+# 注意：不排除 build/ 文件夹！
+# 只排除 build 里的大文件
+build/*.raw
+build/*.sz3
+build/*.tthresh
